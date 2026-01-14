@@ -6,7 +6,7 @@ def create_app():
         # State Management: Initialize the class for every unique user session
         quiz_state = gr.State(quizzer())
 
-        gr.Markdown("# 🧠 AI Quiz Generator")
+        gr.Markdown("# 🧠 Python Quiz Generator")
 
         with gr.Row():
             with gr.Column(scale=1):
@@ -44,7 +44,6 @@ def create_app():
         def on_generate(quiz, subject, diff, q_type):
             # Logic wrapper
             q_text = quiz.new_question(subject, diff, q_type)
-            print(quiz.history_questions)
             return (
                 quiz,                           # Update State
                 q_text,                         # Show Question
