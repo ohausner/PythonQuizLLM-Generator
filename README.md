@@ -4,8 +4,8 @@ A dynamic, AI-powered quiz application that generates infinite questions on any 
 
 ## 🚀 Features
 
-* **Infinite Question Generation:** Generates unique questions based on:
-    * **Topic:** Free text input (e.g., "Python Lists", "Quantum Physics", "World History").
+* **Infinite Question Generation:** Generates unique python question based on:
+    * **Topic:** Free text input (e.g., "Python Lists", "Recursive Functions", "Strings & Integers").
     * **Difficulty:** Easy, Medium, Hard.
     * **Type:** Multiple Choice or Open Question.
 * **Smart Evaluation:** The AI evaluates user answers semantically, accepting partial matches and providing explanations.
@@ -23,7 +23,7 @@ A dynamic, AI-powered quiz application that generates infinite questions on any 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/ai-quiz-generator.git](https://github.com/your-username/ai-quiz-generator.git)
+    git clone [https://github.com/ohausner/PythonQuizLLM-Generato.git](https://github.com/ohausner/PythonQuizLLM-Generato.git)
     cd ai-quiz-generator
     ```
 
