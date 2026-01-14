@@ -23,7 +23,7 @@ A dynamic, AI-powered quiz application that generates infinite questions on any 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/ai-quiz-generator.git](https://github.com/your-username/ai-quiz-generator.git)
+    git clone [https://github.com/ohausner/PythonQuizLLM-Generato.git](https://github.com/ohausner/PythonQuizLLM-Generato.git)
     cd ai-quiz-generator
     ```
 
